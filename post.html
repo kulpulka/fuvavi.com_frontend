@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fuvavi.com</title>
+
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header id="header" class="f-header">
+            <nav class="navbar navbar-expand-md fixed-top">
+                <div class="container">
+                    <div class="btn-menu-mb">
+                        <a href="javascript:void(0)" data-target="#fvv-menu-mb" data-toggle="modal">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-3 f-logo">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo-fuvavi.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="navbar-collapse" id="f-navbar-search">
+                        <div class="mr-auto f-navbar-search">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control transition" type="text" placeholder="Type to search" aria-label="Search" id="nav-input-search">
+                                <button class="btn button-default my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="ml-auto list-action-nav">
+                            <div class="f-search-mb">
+                                <a href="#" class="dropdown-toggle" id="dropdown-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdown-search">
+                                    <form class="dropdown-search-mb">
+                                        <input class="form-control transition" type="text" placeholder="Type to search" aria-label="Search" id="nav-input-search-mb">
+                                        <button class="btn button-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="action-nav ">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bell icon-animated-bell" aria-hidden="true"></i><span class="badge badge-pill badge-danger">2</span></a>
+                                <div class="dropdown-menu f-notification">
+                                    <h3>Thông Báo</h3>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="f-noti-thumn">
+                                            <img src="images/fuvavi-thumnail.jpg" alt="">
+                                        </div>
+                                        <p>Đăng kí nhận thông báo để cập nhật bài viết mới nhất</p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="f-noti-thumn">
+                                            <img src="images/fuvavi-thumnail.jpg" alt="">
+                                        </div>
+                                        <p>Đăng kí nhận thông báo để cập nhật bài viết mới nhất</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="f-nav-user">
+                                <a href="https://www.facebook.com/fuvavi" target="_blank">
+                                    <h1 class="sr-only">Blog fuvavi.com - Thủ thuật Frontend - Kinh nghiệm thiết kế web - Design - Share code</h1>
+                                    <img src="http://graph.facebook.com/100003178356978/picture" alt="fuvavi.com">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <!-- !HEADER -->
+
+        <!-- menu mobile -->
+        <div class="modal left fade" id="fvv-menu-mb" tabindex="-1" role="dialog" aria-labelledby="f-menu-mb-label">
+            <div class="modal-dialog" role="document">
+                <div class="fvv-menu-mb-header">
+                    <div class="btn-menu-mb">
+                        <a href="javascript:void(0)" data-dismiss="modal">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo-fuvavi.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-content">
+                    <div class="fvv-sidebar">
+                        <div class="fvv-sidebar-content">
+                            <div class="list-f-sidebar">
+                                <div class="">
+                                    <div class="fb-page" data-href="https://www.facebook.com/fuvaviblog/" data-tabs="timeline" data-width="500" data-height="130" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                        <blockquote class="fb-xfbml-parse-ignore" cite="https://www.facebook.com/fuvaviblog/"><a href="https://www.facebook.com/fuvaviblog/">Fuvavi Blog</a></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-f-sidebar">
+                                <h3>Chuyên mục</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-desktop" aria-hidden="true"></i> Thiết kế web
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-fire" aria-hidden="true"></i> Thủ thuật
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> Công nghệ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-coffee" aria-hidden="true"></i> Bạn có biết
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-motorcycle" aria-hidden="true"></i> Khám phá
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list-f-sidebar">
+                                <h3>Danh Sách</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-bookmark" aria-hidden="true"></i> Lịch sử
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-history" aria-hidden="true"></i> Mới nhất 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-star" aria-hidden="true"></i> Xem nhiều
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list-f-sidebar">
+                                <h3>Bằng hữu</h3>
+                                <ul class="friend-list">
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="f-content">
+            <div class="container">
+                <div class="row flex-xl-nowrap">
+                    <div class="col-12 col-md-3 col-xl-3 fvv-sidebar">
+                        <div class="fvv-sidebar-content">
+                            <div class="list-f-sidebar">
+                                <div class="">
+                                    <div class="fb-page" data-href="https://www.facebook.com/fuvaviblog/" data-tabs="timeline" data-width="500" data-height="130" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                        <blockquote class="fb-xfbml-parse-ignore" cite="https://www.facebook.com/fuvaviblog/"><a href="https://www.facebook.com/fuvaviblog/">Fuvavi Blog</a></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-f-sidebar">
+                                <h3>Chuyên mục</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-desktop" aria-hidden="true"></i> Thiết kế web
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-fire" aria-hidden="true"></i> Thủ thuật
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> Công nghệ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-coffee" aria-hidden="true"></i> Bạn có biết
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-motorcycle" aria-hidden="true"></i> Khám phá
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list-f-sidebar">
+                                <h3>Danh Sách</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-bookmark" aria-hidden="true"></i> Lịch sử
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-history" aria-hidden="true"></i> Mới nhất 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-star" aria-hidden="true"></i> Xem nhiều
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list-f-sidebar">
+                                <h3>Bằng hữu</h3>
+                                <ul class="friend-list">
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://graph.facebook.com/724310231098859/picture" alt="">
+                                            <span>Fuvavi.com</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xl-9 fvv-content">
+                       <div class="f-post-content-box">
+                          <div class="f-post-img">
+                             <img src="images/iphonex.jpg" alt="">
+                             <div class="f-post-category">
+                                <a href="#">
+                                   <span>Công Nghệ</span>
+                               </a>
+                           </div>
+                       </div>
+                       <div class="f-post-title">
+                         <h2 class="pull-left">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple. bí mật của Apple. bí mật của Apple.</h2>
+                         <div class="pull-right f-post-view">
+                            <span>69,969 lượt xem</span>
+                        </div>
+                    </div>
+                    <div class="f-post-author">
+                     <div class="f-post-author-img">
+                        <a href="#">
+                           <div class="f-cicle">
+                              <img src="http://graph.facebook.com/100003178356978/picture" alt="fuvavi.com">
+                          </div>
+                      </a>
+
+                  </div>
+                  <div class="f-post-author-name">
+                   <a href="#"><b>Phùng Văn Việt</b></a>
+                   <p>Xuất bản 2 thg 7, 2017</p>
+               </div>
+               <div class="f-post-author-action">
+                <a href="/" class="btn btn-danger">Theo dõi</a>
+                <a href="/" class="btn btn-light">Liên hệ</a>
+            </div>
+            <div class="f-post-share pull-right">
+                <span><i class="fa fa-share" aria-hidden="true"></i> CHIA SẺ </span>
+                <a href="#" class="fps-btn fps-facebook btn">
+                   <i class="fa fa-facebook" aria-hidden="true"></i>
+               </a>
+               <a href="#" class="fps-btn fps-twitter btn">
+                   <i class="fa fa-twitter" aria-hidden="true"></i>
+               </a>
+               <a href="#" class="fps-btn fps-google btn">
+                   <i class="fa fa-google" aria-hidden="true"></i>
+               </a>
+           </div>
+       </div>
+
+       <section class="f-post-content">
+         <img src="images/iphone-x-696x348.png" alt="Fuvavi">
+
+         <h3>Vài chục triệu đồng cho một chiếc iPhone, </h3>
+         <p> Vài chục triệu đồng cho một chiếc iPhone, lần này không phải vì thương gia hét giá mà vì đó là cái giá mà Apple đưa ra cho chiếc di động kỷ niệm 10 năm của họ.</p>
+         <br>
+         <p>Họ rêu rao những ngôn từ tốt đẹp, như hướng đến cộng đồng, hướng đến người dùng, hướng đến trải nghiệm, nhưng đổi lại cho những thứ đó, giá sản phẩm ngày một “cắt cổ”. iPhone X có giá 999 USD tại Mỹ cho bản 64 GB, 1.149 USD cho bản 256 GB.Mỗi người một quan điểm nhưng có một thứ họ đồng thuận, cũng như hàng triệu người dùng trên thế giới này: Apple đang “hút máu” người dùng ngày một nhiều.</p><br><br>
+         <h3>Vài chục triệu đồng cho một chiếc iPhone, </h3>
+         <p>Không nói đến chuyện thương gia làm giá, iPhone X khi về Việt Nam khó bán thấp hơn mức 30 triệu đồng. Những ngày đầu, giá bán của nó nhiều khả năng sẽ ở mức 40-50 triệu đồng. Đây có thể xem là mức giá lố bịch cho một chiếc di động, dù là cao cấp, nhưng lại được thị trường chấp nhận, đơn giản vì có nhiều người sẵn sàng mua nó.</p><br><br>
+
+         <p>“Apple hút máu ngày càng mạnh. iPhone X chỉ dành cho người giàu”, ông Mai Triều Nguyên – giám đốc một hệ thống bán lẻ di động ở TP.HCM nói. Đây là nhận xét ông đưa ra với tư cách của một người tiêu dùng.</p><br><br>
+         <img src="images/iphonex.jpg" alt="">
+
+         <p>“Hãy tiêu tiền cho đúng, hãy thực dụng. Tiền kiếm được không dễ. Ngày 3/11 iPhone X mới bán ra, mà bản 64 GB các bạn dùng sẽ ức chế vì ham chụp hình đẹp và quay video 4K, bạn sẽ phải nghiến răng một chút để tậu luôn 256 GB, và giá của nó lên đến 1.149 USD chưa thuế.</p><br><br>
+
+         <p>Nếu về hàng chợ đen, thương lái sẽ đẩy nó lên trên 50 triệu và khả năng khan hiếm hàng là rất cao. Còn máy chính hãng chưa biết khi nào, có thể qua đầu năm 2018, mà chưa biết có được bao nhiêu hàng. Giá bèo cũng 28-29 triệu cho bản 64 GB và trên 30 triệu cho bản 256 GB.</p>
+         <br>
+     </section>
+     <hr>
+     <div class="f-post-tags">
+         <span>Tags</span>
+         <a href="#">Công nghệ</a>
+         <a href="#">Công nghệ</a>
+         <a href="#">Công nghệ</a>
+         <a href="#">Công nghệ</a>
+         <a href="#">Công nghệ</a>
+     </div>
+
+     <hr>
+     <div class="f-post-share-bottom">
+         <span>Chia sẻ</span>
+         <a href="#" class="fps-btn fps-facebook btn">
+           <i class="fa fa-facebook" aria-hidden="true"></i>
+       </a>
+       <a href="#" class="fps-btn fps-twitter btn">
+           <i class="fa fa-twitter" aria-hidden="true"></i>
+       </a>
+       <a href="#" class="fps-btn fps-google btn">
+           <i class="fa fa-google" aria-hidden="true"></i>
+       </a>
+   </div>
+   <hr>
+
+   <div class="f-comment-facebook">
+    <div class="fb-comments" data-href="http://fuvavi.com" data-colorscheme="light" data-numposts="5" data-width="100%"></div>
+</div>
+</div>
+
+<div class="f-post-recently">
+    <ul class="nav nav-pills mb-3" id="recent-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="recent-post-tab" data-toggle="pill" href="#recent-post" role="tab" aria-controls="pills-home" aria-expanded="true">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="more-post-tab" data-toggle="pill" href="#more-post" role="tab" aria-controls="pills-profile" aria-expanded="true">Profile</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="recent-tabContent">
+        <div class="tab-pane fade show active" id="recent-post" role="tabpanel" aria-labelledby="recent-post-tab">
+            <div id="rencently-slider" class="owl-carousel cate-post-slide slide-style">
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="more-post" role="tabpanel" aria-labelledby="more-post-tab">
+            <div id="more-post-slider" class="owl-carousel cate-post-slide slide-style">
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphone-x-696x348.png" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cate-post-item">
+                        <div class="cate-post-item-inner">
+                            <a href="/">
+                                <div class="post-avatar">
+                                    <img src="images/iphonex.jpg" alt="iphone x">
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="text-default">Cận cảnh iPhone X: "Vũ khí" bí mật của Apple.</h3>
+                                    <p class="text-gray">Công nghệ | 2 giờ trước</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="f-footer">
+    <p>Copyright © 2017 <a href="#">fuvavi.com</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="libs/popper/umd/popper.js"></script>
+<script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="libs/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript">
+    $('.carousel').owlCarousel({
+        loop:false,
+        margin:0,
+        nav:true,
+        dots: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        },
+        navText: ["<i class='fa fa-chevron-left' aria-hidden='true'></i>","<i class='fa fa-chevron-right' aria-hidden='true'></i>"]
+    })
+</script>
+
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '131375914163212',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v2.11'
+      });
+    };
+    (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/vi_VN/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+
+</script>
+</body>
+</html>
